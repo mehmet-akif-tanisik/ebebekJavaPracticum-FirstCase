@@ -1,9 +1,6 @@
-# ebebekJavaPracticum
+# ebebek Java Practicum
 This project has been prepared for eBebek Java Practicum.
 
-
-## ebebek Java&QA Practicum  
-  
 
 **Course Name:**  ebebek Java&QA Practicum 
   
@@ -14,9 +11,6 @@ This project has been prepared for eBebek Java Practicum.
 **Language:**  Java
   
 
-
-
-  
 **Case Details:** You should write a class called "Employee" that represents factory workers and calculates employee salaries with its methods. This class will have 4 attributes and 5 methods. Expected outputs: name ,salary, work hours(weekly), hire year, tax, bonus ,salary raise, salary with bonuses and taxes and total salary.  
   
 

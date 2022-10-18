@@ -63,14 +63,14 @@ public class Employee {
      */
     public double raiseSalary(){
         int totalWorkingYear = 2021 - hireYear;
-        double netSalary = ( salary + bonus() ) - tax();
+        //double netSalary = ( salary + bonus() ) - tax();
 
         if (totalWorkingYear<10){
-            return netSalary*0.05;
+            return salary*0.05;
         } else if (totalWorkingYear<20){
-            return netSalary*0.10;
+            return salary*0.10;
         } else {
-            return netSalary*0.15;
+            return salary*0.15;
         }
     }
 
@@ -87,6 +87,6 @@ public class Employee {
                 "\nBonus: " + bonus() +
                 "\nSalary Raise: " + raiseSalary() +
                 "\nNet Salary: " + (salary+bonus()-tax()) +
-                "\nTotal Salary: " + (salary+raiseSalary()));
+                "\nTotal Salary: " + (salary+raiseSalary()+bonus()-tax()));
     }
 }

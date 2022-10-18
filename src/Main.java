@@ -6,7 +6,7 @@ public class Main {
         Employee ahmet = new Employee("Ahmet",1000,41,2018);
         Employee halil = new Employee("Halil",1000,40,2012);
         Employee deniz = new Employee("Deniz",1000,40,2010);
-        Employee eren = new Employee("Eren",1000,40,2000);
+        Employee eren = new Employee("Eren",2000,45,1985);
 
         System.out.println("IF TOTAL WORK HOURS LESS OR EQUAL TO 40 HOURS ");
         System.out.println("AND SALARY IS LESS THAN 1000 , SEE TAX AND BONUS\n");

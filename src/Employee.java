@@ -45,7 +45,7 @@ public class Employee {
      * lira for each extra hours.
      * @return the bonus value as decimal
      */
-    public int bonus(){
+    public double bonus(){
         if (workHours<=40){
             return 0;
         } else {
